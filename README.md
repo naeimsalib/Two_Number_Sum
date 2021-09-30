@@ -13,3 +13,17 @@ if no numbers found that match the targetSum, then return an Emplty String
   If found, then Return [potintialMatch, Number];
   Else if not found Then Assign true to numbers[number], and move to the next Value<br />
   if the Array Reaches the end and doesn't find a match, it just returns an empty array.<br />
+  Here the Time complicity of this Method is O(N) Times , and O(n) Space , WHere n is the size of the array.<br />
+<br />
+
+# Two_Number_Sum_Method2.js
+ for Method two , I created Two variables(left, right) , the first one is equal to Zero, <br />
+ and the second one is equal to the last Element of the array (array.length-1). <br />
+  --------------------------------------------------
+ |      1       |      2       |     3     |   4    |
+  ---------------------------------------------------
+        ^                                      ^
+        |                                      |
+        |                                      |
+     Left Pointer                           RightPointer
+ Inside a while Loop That chackes if (left < right)<br />

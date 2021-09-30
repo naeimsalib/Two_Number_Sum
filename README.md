@@ -13,7 +13,7 @@ if no numbers found that match the targetSum, then return an Emplty String
   If found, then Return [potintialMatch, Number];
   Else if not found Then Assign true to numbers[number], and move to the next Value<br />
   if the Array Reaches the end and doesn't find a match, it just returns an empty array.<br />
-  Here the Time complicity of this Method is O(N) Times , and O(n) Space , WHere n is the size of the array.<br />
+  ***Here the Time complicity of this Method is O(N) Times , and O(n) Space , WHere n is the size of the array.***<br />
 <br />
 
 # Two_Number_Sum_Method2.js
@@ -22,3 +22,10 @@ if no numbers found that match the targetSum, then return an Emplty String
  ![Two_Number_Sum_Method1](https://user-images.githubusercontent.com/11530670/135513929-76da12c2-a2d9-486b-b2f8-3554b7dfc755.png)
 
  Inside a while Loop That chackes if (left < right)<br />
+  then we check if left + right is equal to targetSum<br />
+   if yes, return both left and right, <br />
+  if not equal , Checks if (right + left) < target <br />
+    then add 1 to left , if not add one to right<br />
+    and here what is doing and moving both pointers towards the middle of he array, untill it find the answer<br />
+      ***Here the Time complicity of this Method is O(nlog(n)) Times , and O(1) Space , WHere n is the size of the array.***<br />
+    

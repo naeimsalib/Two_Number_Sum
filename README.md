@@ -19,11 +19,6 @@ if no numbers found that match the targetSum, then return an Emplty String
 # Two_Number_Sum_Method2.js
  for Method two , I created Two variables(left, right) , the first one is equal to Zero, <br />
  and the second one is equal to the last Element of the array (array.length-1). <br />
-  --------------------------------------------------
- |      1       |      2       |     3     |   4    |
-  ---------------------------------------------------
-        ^                                      ^
-        |                                      |
-        |                                      |
-     Left Pointer                           RightPointer
+ 
+
  Inside a while Loop That chackes if (left < right)<br />
